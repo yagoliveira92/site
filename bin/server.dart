@@ -29,10 +29,6 @@ void main(List<String> args) {
     exit(64);
   }
 
-  if (!FileSystemEntity.isFileSync('bin/server.dart')) {
-    throw StateError('Server expects to be started the '
-        'root of the project.');
-  }
   var pipeline = const shelf.Pipeline();
 
   if (logging) {
