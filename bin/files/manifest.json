@@ -1,11 +1,11 @@
 {
-    "name": "app_abcradio",
-    "short_name": "app_abcradio",
+    "name": "ABC Rádio",
+    "short_name": "abcradio",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "App da ABC Rádio",
+    "description": "WebApp da ABC Rádio",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
