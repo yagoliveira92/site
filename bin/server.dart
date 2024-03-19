@@ -36,7 +36,7 @@ void main(List<String> args) {
     defaultDoc = null;
   }
 
-  final handler = pipeline.addHandler(createStaticHandler('bin/files',
+  final handler = pipeline.addHandler(createStaticHandler('app/bin/files',
       defaultDocument: defaultDoc, listDirectories: listDirectories));
 
   io.serve(handler, 'localhost', port).then((server) {
